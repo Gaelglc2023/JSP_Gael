@@ -34,7 +34,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
+                        <a class="nav-link active" href="#">Acerca de</a>
                     </li>
                 </ul>
             </div>
@@ -77,6 +77,12 @@
                         <% } %>
                     </tbody>
                 </table>
+                    <button id="miBoton" class="btn btn-primary">Ir a otra página</button>
+                    <script>
+                        document.getElementById("miBoton").addEventListener("click", function() {
+                        window.location.href = "http://localhost:8080/Numeros_1/JSP1.jsp";
+                        });
+                    </script>
         </div>
     </div>
 </div>

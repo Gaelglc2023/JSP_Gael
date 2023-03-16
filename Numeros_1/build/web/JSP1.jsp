@@ -22,6 +22,13 @@
       <button type="button" class="btn-close" aria-label="Close"></button>
     </div>
   </nav>
+        
+        <button id="miBoton" class="btn btn-primary" style="margin-bottom: 5%">Regresar</button>
+                    <script>
+                        document.getElementById("miBoton").addEventListener("click", function() {
+                        window.location.href = "http://localhost:8080/Tabla/JSP2.jsp";
+                        });
+                    </script>
     
 <div class="container">
     <div class="row align-items-start" >

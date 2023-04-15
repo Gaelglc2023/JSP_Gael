@@ -229,3 +229,63 @@
 .edu-group p{
     padding-left: 80px;
 }
+
+@media screen and (max-width:800px){
+    .print-area{
+        width: auto;
+    }
+
+    .print-area .header{
+        width: 100vw;
+    }
+
+    .header img{
+        width: 30vw;
+    }
+
+    .right-area{
+        margin-left: 30px;
+        width: 60%;
+        margin-bottom: 30px;
+        overflow-wrap: normal;
+    }
+
+    .right-area .about p{
+        width: 180%;
+        overflow-wrap: normal;
+    }
+
+    .work-group p{
+        width: 210%;
+        overflow-wrap: normal;
+    }
+
+    .work-group span{
+        display: block;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+    .edu-group h4{
+        width: 200%;
+    }
+
+    .edu-group p{
+        width: 200%;
+    }
+
+    .edu-group span{
+        display: block;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+    .left-area{
+        width: 30%;
+        align-items: center;
+    }
+
+    .bars{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
